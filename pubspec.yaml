@@ -1,0 +1,47 @@
+name: demo
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.3
+
+  get: ^4.3.8
+  http: ^0.13.3
+  google_fonts: ^2.1.0
+  flutter_svg: ^0.22.0
+  get_storage: ^2.0.2
+  pull_to_refresh: ^2.0.0
+  intl: ^0.17.0
+  package_info: ^2.0.2
+  easy_debounce: ^2.0.0
+  flutter_screenutil: ^5.0.0+2
+  get_test: ^3.13.0
+
+dev_dependencies:
+  lint: ^1.5.3
+  build_runner:
+  flutter_gen_runner:
+  json_serializable:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/poppins.ttf

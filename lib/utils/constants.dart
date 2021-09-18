@@ -1,0 +1,5 @@
+enum JobType {
+  PENDING,
+  DONE
+}
+
